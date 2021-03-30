@@ -1,6 +1,6 @@
 {
   "name": "vscode-welcome-view",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "VSCode Webview to show Welcome page for extension",
   "main": "out/index.js",
   "scripts": {
