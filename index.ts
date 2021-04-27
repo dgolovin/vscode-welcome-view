@@ -96,6 +96,7 @@ export class WelcomeWebview {
       cspSource: this._panel.webview.cspSource,
       jsUri: this.getJsUri(),
       status: extensionStatus,
+      baseUri: this._panel.webview.asWebviewUri(vscode.Uri.file( path.join(this._extensionPath, this._assetsPath))),
     };
 
     return await new Promise((resolve: any, reject: any): any => {
